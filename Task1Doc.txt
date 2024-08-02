@@ -5,3 +5,36 @@
 - The list of actions that can be performed on the to-do list is then printed within the While loop, such 
 that after every action the user is given the options to perform another action or exit.
 - Further we add an if-elif-else loop giving the choice of actions that can be performed on the list
+
+2) We assign a list/array of tasks under the variable name of "tasks"
+
+3) Display:
+- We define a function named "display" to display the contents of list
+- initiate if condition --> if not "tasks" then the "tasks" list is empty
+else --> printing to do list --> if the task["completed"] = True (in the 'completed' function) then 
+the status is marked as DOne or else Not Done
+- enumerate is used while looping through the "tasks" list to give the index and the element as a tuple 
+pair as output.
+- lastly it prints the index number, task and status.
+
+4) Adding Task:
+- We define a function named "add_task" to add the task in the list
+- we create a tuple with keywords "task" and "completed", and values as "task_name" (task assigned in main)
+ and "False" respectively
+- Now we append this tuple in "tasks" list
+
+5) Completed task:
+- We define a function named "completed" to mark the task complete
+- if the index of task provided by user when asked in main function is <= 1 but <= total number of tasks, 
+we mark the task at that certain index --> completed = True
+- index = task_number-1 as the list index starts from 0
+if the index of task provided by user when asked in main function isn't within the range ask the user to
+retype the valid number
+
+6) Removing task:
+- We define a function named "removed" to remove the task
+- if the index of task provided by user when asked in main function is <= 1 but <= total number of tasks,
+the task with that index number is popped from the list and printed
+- index = task_number-1 as the list index starts from 0
+if the index of task provided by user when asked in main function isn't within the range ask the user to
+retype the valid number
