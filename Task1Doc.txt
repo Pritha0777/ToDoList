@@ -4,3 +4,4 @@
 - We start with "while True" to ensure that the loop repeats multiple times until the user exits the loop
 - The list of actions that can be performed on the to-do list is then printed within the While loop, such 
 that after every action the user is given the options to perform another action or exit.
+- Further we add an if-elif-else loop giving the choice of actions that can be performed on the list
