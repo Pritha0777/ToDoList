@@ -66,4 +66,4 @@ while True:
     elif action == "5":
         break
     else:
-        print("Enter a valicd choice of action")
+        print("Enter a valid choice of action")
